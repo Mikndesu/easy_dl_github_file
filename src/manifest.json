@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "scsnowmanify",
+    "version": "0.0.1",
+    "description": "download a simple file on Github with ease.",
+    "permissions": [
+      "activeTab",
+      "downloads"
+    ],
+    "content_scripts": [{
+        "matches": ["https://github.com/*"],
+        "js": [
+          "js/background.js"
+        ]
+      }]
+  }
