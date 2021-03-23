@@ -6,7 +6,7 @@ browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         `);
   }
   if (request.message == "get_raw_url") {
-   var url = 'https://github.com'+$('#raw-url').attr('href')
-   sendResponse(url)
+    var url = "https://github.com" + $("#raw-url").attr("href");
+    sendResponse(url);
   }
 });

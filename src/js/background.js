@@ -36,7 +36,10 @@ const menu = {
         result.id,
         { message: "get_raw_url" },
         function (response) {
-          browser.downloads.download({url: response, filename: get_filename(result.url)})
+          browser.downloads.download({
+            url: response,
+            filename: get_filename(result.url),
+          });
         }
       );
     });
