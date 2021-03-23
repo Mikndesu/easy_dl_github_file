@@ -19,7 +19,7 @@ const target_extensions = ["cpp", "md"];
 const menu = {
   title: "download this file",
   type: "normal",
-  contexts: ["selection"],
+  contexts: ["all"],
   documentUrlPatterns: ["*://github.com/*"],
   onclick: () => {
     get_current_tab().then((result) => {
