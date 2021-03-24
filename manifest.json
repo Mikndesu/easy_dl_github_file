@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "easy_dl_github_file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "download a simple file on Github with ease.",
   "icons": {
     "48": "src/icons/border-48.png"

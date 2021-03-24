@@ -31,6 +31,7 @@ const menu = {
           { message: "pop_up_alert" },
           function () {}
         );
+        return;
       }
       browser.tabs.sendMessage(
         result.id,
